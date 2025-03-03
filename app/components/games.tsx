@@ -25,7 +25,7 @@ export default function Games() {
       category: "Battle Royale",
       description:
         "Battlegrounds Mobile India - A battle royale where 100 players fight to be the last one standing.",
-      formLink: "https://forms.gle/AALWZ923s6t9DuYF6",
+      formLink: "https://forms.gle/HJY3zegXKbmJmjHt7",
     },
     {
       id: 3,
