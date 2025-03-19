@@ -19,6 +19,10 @@ export default function Navbar() {
               alt="Glitch Esports Logo"
               className="h-8 w-19 mr-3"
             />
+            <Link
+              href="/images/glitch_logo.png"
+              className="flex items-center"
+            ></Link>
             <img
               src="/images/glitch_logo.png"
               alt="Glitch Esports Logo"
