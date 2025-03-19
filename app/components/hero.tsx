@@ -14,7 +14,7 @@ export default function Hero() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("March 18, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 23, 2025 00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -90,9 +90,7 @@ export default function Hero() {
           </div>
 
           <p className="text-md md:text-lg from-purple-600 mb-10">
-            A late registration fee will be applied after 12th March.
-            <br />
-            Late registration will be open from 13th March to 16th March.
+            Registration will be open till 23rd March
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
