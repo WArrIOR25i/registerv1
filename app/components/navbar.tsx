@@ -19,15 +19,10 @@ export default function Navbar() {
               alt="Glitch Esports Logo"
               className="h-8 w-19 mr-3"
             />
-            <Link
-              href="/images/glitch_logo.png"
-              className="flex items-center"
-            ></Link>
-            <img
-              src="/images/glitch_logo.png"
-              alt="Glitch Esports Logo"
-              className="h-8 w-19 mr-3"
-            />
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-400">
+              GLITCH
+            </span>
+            <span className="ml-2 text-xl font-bold text-white">E-SPORTS</span>
           </Link>
 
           {/* Desktop Navigation */}
