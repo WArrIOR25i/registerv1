@@ -13,16 +13,20 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/20">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/images/su-logo.png" className="flex items-center">
-            <img
-              src="/images/su-logo.png"
-              alt="Glitch Esports Logo"
-              className="h-8 w-19 mr-3"
-            />
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-400">
-              GLITCH
-            </span>
-            <span className="ml-2 text-xl font-bold text-white">E-SPORTS</span>
+          {/* SU Logo and Glitch Esports Logo */}
+          <Link href="/">
+            <div className="flex items-center">
+              <img
+                src="/images/su-logo.png"
+                alt="SU Logo"
+                className="h-8 w-auto mr-3"
+              />
+              <img
+                src="/images/glitch-esports.png"
+                alt="Glitch Esports Logo"
+                className="h-8 w-auto"
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

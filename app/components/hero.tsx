@@ -90,7 +90,7 @@ export default function Hero() {
           </div>
 
           <p className="text-md md:text-lg from-purple-600 mb-10">
-            Registration will be open till 24th March
+            Registrations open
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
